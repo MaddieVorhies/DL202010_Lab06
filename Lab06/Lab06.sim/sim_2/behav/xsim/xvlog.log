@@ -1,0 +1,6 @@
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "H:/DL202010_Lab06/Lab06/systemverilog/sseg_decoder.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module sseg_decoder
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "H:/DL202010_Lab06/Lab06/systemverilog/sseg_decoder_test.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module sseg_decoder_test
+INFO: [VRFC 10-2263] Analyzing Verilog file "H:/DL202010_Lab06/Lab06/Lab06.sim/sim_2/behav/xsim/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
