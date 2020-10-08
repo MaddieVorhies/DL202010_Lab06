@@ -61,8 +61,8 @@
 %=========== Body  ====================================
 \begin{document}
 
-\title{ELC 2137 Lab \#\#: Lab Title}
-\author{Put your name(s) here}
+\title{ELC 2137 Lab 06: MUX and 7-segment Decoder}
+\author{Maddie Vorhies}
 
 \maketitle
 
@@ -84,6 +84,11 @@ There would be 21 wires connected to the 7-segment display. \newline
 3. Why do we prefer the current method vs. separating all of the segments? \newline
 The current method is much simpler and much cleaner. The current method helps organized the circuit and make it more readable for the creator and for someone who is looking at your code. It will help in the future when you or someone else looks back on your code to see what you did. Instead of taking the time to firgure out where all 21 wires go, you can quickly see where the 4 groups of wires go. \newline
 
+4. List of Errors: \newline 
+- Error: procedural assignment to a non-register selt is not permitted, left-hand side shoud be reg/integer/time/genvar. \newline
+- Error: HW target shutdown. \newline
+- We run simulations so that we can find the errors in our code, if they are present. We run them multiple times throughout writing code so that if there is an error early on you can fix it rather than waiting to fix the error and having to alter all of you're code after that error. 
+
 
 \section*{Results}
 
@@ -102,7 +107,17 @@ The current method is much simpler and much cleaner. The current method helps or
 
 \section*{Code}
 
+\Verilog{Lab06/systemverilog/mux2_4b.sv}
 
+\Verilog{Lab06/systemverilog/mux2_4b_test.sv}
+
+\Verilog{Lab06/systemverilog/sseg_decoder.sv}
+
+\Verilog{Lab06/systemverilog/sseg_decoder_test.sv}
+
+\Verilog{Lab06/systemverilog/sseg1.sv}
+
+\Verilog{Lab06/systemverilog/sseg1_test.sv}
 
 
 \end{document}
