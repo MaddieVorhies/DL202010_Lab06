@@ -22,22 +22,18 @@
 
 module sseg1(
 
-    input [3:0] A,
-    input [3:0] B,
-    input sel,
-    output [1:0] seg_un,
+    input [15:0] switches,
+    output [3:0] out,
     output dp,
-    output [6:0] sseg,
-    output seg_l,
-    output seg_r
+    output [6:0] sseg
  );
     
     wire [3:0] num;
     
     mux2_4b mux (
-       .in1(A), 
-       .in0(B),
-       .sel(sel),
+       .in1(switches[7:4]), 
+       .in0(switches[3:0]),
+       .sel(switches[15]),
        .out(num)
     );
     
@@ -46,10 +42,10 @@ module sseg1(
        .sseg(sseg)
     );
     
-    assign sseg_r = sel;
-    assign sseg_l = ~sel;
-    assign dp = 1;
-    assign seg_un = 2'b11;
+    assign out[0] = switches[15];
+    assign out[1] = ~switches[15];
+    assign dp = 1'b1;
+    assign out[3:2] = 2'b11;
     
     
 endmodule

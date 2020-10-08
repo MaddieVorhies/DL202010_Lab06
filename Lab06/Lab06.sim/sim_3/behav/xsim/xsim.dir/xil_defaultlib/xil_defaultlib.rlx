@@ -1,0 +1,9 @@
+0.7
+2020.1
+May 27 2020
+20:09:33
+H:/DL202010_Lab06/Lab06/Lab06.sim/sim_3/behav/xsim/glbl.v,1590624368,verilog,,,,glbl,,,,,,,,
+H:/DL202010_Lab06/Lab06/systemverilog/mux2_4b.sv,1601572998,systemVerilog,,H:/DL202010_Lab06/Lab06/systemverilog/sseg1.sv,,mux2_4b,,,,,,,,
+H:/DL202010_Lab06/Lab06/systemverilog/sseg1.sv,1602123314,systemVerilog,,H:/DL202010_Lab06/Lab06/systemverilog/sseg_decoder.sv,,sseg1,,,,,,,,
+H:/DL202010_Lab06/Lab06/systemverilog/sseg1_test.sv,1602123931,systemVerilog,,,,sseg1_test,,,,,,,,
+H:/DL202010_Lab06/Lab06/systemverilog/sseg_decoder.sv,1601574243,systemVerilog,,H:/DL202010_Lab06/Lab06/systemverilog/sseg1_test.sv,,sseg_decoder,,,,,,,,

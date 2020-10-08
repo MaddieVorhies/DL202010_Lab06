@@ -28,17 +28,11 @@ module sseg1_wrapper(
     output [6:0] seg
     );
     
-    
     sseg1 my_7seg1 (
-    
-       .A(sw[7:4]),
-       .B(sw[3:0]),
-       .sel(sw[15]),
-       .seg_un(an[3:2]),
+       .switches(sw),
+       .out(an),
        .dp(dp),
-       .sseg(seg),
-       .seg_l(an[1]),
-       .seg_r(an[0])
+       .sseg(seg)
     );
     
     

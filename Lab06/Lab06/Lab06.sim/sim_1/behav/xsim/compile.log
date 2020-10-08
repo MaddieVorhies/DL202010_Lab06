@@ -1,0 +1,6 @@
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "H:/DL202010_Lab06/Lab06/systemverilog/mux2_4b.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mux2_4b
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "H:/DL202010_Lab06/Lab06/systemverilog/mux2_4b_test.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mux2_4b_test
+INFO: [VRFC 10-2263] Analyzing Verilog file "H:/DL202010_Lab06/Lab06/Lab06.sim/sim_1/behav/xsim/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl

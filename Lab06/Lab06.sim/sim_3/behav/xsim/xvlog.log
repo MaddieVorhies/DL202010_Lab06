@@ -1,0 +1,8 @@
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "H:/DL202010_Lab06/Lab06/systemverilog/mux2_4b.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mux2_4b
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "H:/DL202010_Lab06/Lab06/systemverilog/sseg1.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module sseg1
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "H:/DL202010_Lab06/Lab06/systemverilog/sseg_decoder.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module sseg_decoder
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "H:/DL202010_Lab06/Lab06/systemverilog/sseg1_test.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module sseg1_test
